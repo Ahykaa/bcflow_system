@@ -2,7 +2,7 @@
 
 ## Notice for Reviewers
 
-## Summary /
+## Summary
 
 <!-- What, Why, How -->
 
