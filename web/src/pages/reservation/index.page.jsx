@@ -100,14 +100,14 @@ function Reservation() {
         <form className='flex flex-col '>
           <div className='flex flex-col space-y-2'>
             <div className='flex space-x-4'>
-              <DateInput variant='outlined' label='Date & Time of Application' />
+              <DateInput label='Date of Application' />
               <TextInput variant='outlined' label='Company/Name' />
               <TextInput variant='outlined' label='Address' />
               <TextInput variant='outlined' label='Representative' />
             </div>
             <div className='flex space-x-4 '>
               <TextInput variant='outlined' label='Activity' />
-              <DateInput variant='outlined' label='Date of Event' />
+              <DateInput label='Date of Event' />
               <TextInput variant='outlined' label='Expected Number of Participants' />
             </div>
             <div className='space-x-4 mt-4'>

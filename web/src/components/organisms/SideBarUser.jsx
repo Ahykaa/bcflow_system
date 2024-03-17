@@ -8,7 +8,7 @@ import Link from 'next/link';
 const sidebarItems = [
   { href: 'userDashboard', icon: <HiChartPie />, label: 'Dashboard' },
   { href: 'userTransaction', icon: <GrTransaction />, label: 'Transaction' },
-  { href: 'userRequest', icon: <HiCollection />, label: 'Request' },
+  { href: 'request', icon: <HiCollection />, label: 'Request' },
 ];
 
 function SideBarUser() {
