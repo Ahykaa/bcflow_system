@@ -5,8 +5,9 @@ import { HiChartPie, HiCollection } from 'react-icons/hi';
 import Link from 'next/link';
 
 const sidebarItems = [
-  { href: 'dashboard', icon: <HiChartPie />, label: 'Dashboard' },
+  { href: 'gsdDashboard', icon: <HiChartPie />, label: 'Dashboard' },
   { href: 'reservation', icon: <HiCollection />, label: 'Reservation' },
+  { href: 'gsdPanel', icon: <HiCollection />, label: 'Control Panel' },
 
 ];
 
