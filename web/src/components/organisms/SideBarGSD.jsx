@@ -1,13 +1,12 @@
 import React from 'react';
-import { Sidebar } from 'flowbite-react';
-import { HiChartPie, HiCollection } from 'react-icons/hi';
+import { HiChartPie, HiCollection, HiInformationCircle } from 'react-icons/hi';
 
 import Link from 'next/link';
 
 const sidebarItems = [
   { href: 'gsdDashboard', icon: <HiChartPie />, label: 'Dashboard' },
   { href: 'reservation', icon: <HiCollection />, label: 'Reservation' },
-  { href: 'gsdPanel', icon: <HiCollection />, label: 'Control Panel' },
+  { href: 'gsdPanel', icon: <HiInformationCircle />, label: 'Control Panel' },
 
 ];
 

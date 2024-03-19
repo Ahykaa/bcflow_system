@@ -1,7 +1,7 @@
 export const assetList = [
     {
       value: 0,
-      label: 'Select Particulars',
+      label: 'Select Items',
       disabled: true,
       selected: true,
       hidden: true,
