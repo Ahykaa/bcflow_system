@@ -9,7 +9,6 @@ import TextInput from '@/components/organisms/TextInput';
 import TextInputGSD from '@/components/organisms/TextInputGSD';
 import TemplatesGSD from '@/components/templates/TemplatesGSD';
 import { assetList } from '@/hooks/particuls';
-
 import { Button } from 'flowbite-react';
 import React, { useState } from 'react';
 
@@ -43,7 +42,7 @@ function Reservation() {
 
   const rows = [
     {
-      header: 'Particulars',
+      header: 'Items',
       render: (row, index) => <SelectParticulars options={assetList} />,
     },
     {
@@ -73,7 +72,6 @@ function Reservation() {
         return (
           <TextInputGSD
             variant='filled'
-            label='Amount'
             value={amount}
             readOnly
           />
